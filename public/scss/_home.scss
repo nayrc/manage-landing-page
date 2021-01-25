@@ -1,0 +1,40 @@
+.main-header {
+  min-height: 85vh;
+  position: relative;
+}
+
+.testimonials {
+  .card-testimonials {
+    position: relative;
+    &:hover {
+      background: $BrightRed;
+    }
+    .avatar {
+      position: absolute;
+      top: -15%;
+      left: 42.5%;
+    }
+  }
+}
+
+.footer,
+.attribution {
+  background: $VeryDarkBlue;
+}
+
+.simplify {
+  min-height: 20vh;
+  background: $BrightRed;
+  position: relative;
+  overflow: hidden;
+  .title-simplify {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .simplify-pattern {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: 0;
+  }
+}
